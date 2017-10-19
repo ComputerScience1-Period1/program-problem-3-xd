@@ -15,22 +15,22 @@ void pause() {
 	_getch();
 	cout << '\n';
 }
-// MAIN
+// MAIN xddddddddddddddddddddddd 🅱
 void main() {
 	int x;
-	cout << "Input a number." << endl;
+	cout << "Input a 3 digit number." << endl;
 	cin >> x;
 	int A = x/100;
 	int B = (x-A*100)/10;
 	int C = (x-A*100-B*10);
 	if (A < B && B < C) {
-		cout << "descending";
+		cout << "descending" << endl;
 	}
 	else if (A > B && B > C) {
-		cout << "ascending";
+		cout << "ascending" << endl;
 	}
 	else {
-		cout << "neither";
+		cout << "neither" << endl;
 	};
 
 
